@@ -4,12 +4,15 @@
   "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
   "main": "index.js",
   "scripts": {
+     "start": "node server.js",
+     "seed": "node seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.5.2"
   }

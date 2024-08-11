@@ -4,20 +4,20 @@ const { User, Thought } = require('./models');
 // Sample users
 const users = [
   {
-    username: 'johnDoe',
-    email: 'johndoe@example.com',
+    username: 'sample123',
+    email: 'sample123@example.com',
     friends: [],
     thoughts: []
   },
   {
-    username: 'janeDoe',
-    email: 'janedoe@example.com',
+    username: 'ericC',
+    email: 'ericC@example.com',
     friends: [],
     thoughts: []
   },
   {
-    username: 'coolUser123',
-    email: 'cooluser123@example.com',
+    username: 'spinarak',
+    email: 'spinarak@example.com',
     friends: [],
     thoughts: []
   }
@@ -27,17 +27,17 @@ const users = [
 const thoughts = [
   {
     thoughtText: 'This is my first thought!',
-    username: 'johnDoe',
+    username: 'spinarak',
     reactions: []
   },
   {
     thoughtText: 'Loving this social network!',
-    username: 'janeDoe',
+    username: 'ericC',
     reactions: []
   },
   {
     thoughtText: 'Just posting a thought here.',
-    username: 'coolUser123',
+    username: 'sample123',
     reactions: []
   }
 ];
